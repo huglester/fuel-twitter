@@ -35,11 +35,11 @@ class Twitter_Oauth {
 	{
 		$config = \Config::load('twitter', true);
 
-	        if ( ! empty($config[$config['active']]['tweet_access_token']) and ! empty($config[$config['active']]['tweet_access_token_secret']))
-	        {
-	            $this->set_access_key($config[$config['active']]['tweet_access_token']);
-	            $this->set_access_secret($config[$config['active']]['tweet_access_token_secret']);
-	        }
+		if ( ! empty($config[$config['active']]['tweet_access_token']) and ! empty($config[$config['active']]['tweet_access_token_secret']))
+		{
+			$this->set_access_key($config[$config['active']]['tweet_access_token']);
+			$this->set_access_secret($config[$config['active']]['tweet_access_token_secret']);
+		}
 
 		$this->tokens = array(
 			'consumer_key' 		=> $config[$config['active']]['twitter_consumer_key'],
