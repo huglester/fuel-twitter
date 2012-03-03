@@ -7,10 +7,10 @@ return array(
 	'active' => Fuel::$env,
 
 	'development' => array(
-		'tweet_access_token'        => '512156830-Qr02kg0vNwUVfSxKPxsm7Rey9zjeWoT2YjlKY3do',
-		'tweet_access_token_secret' => 'TxAUpRNhn5MJACVbWSOZKnEgkMcCpOnry8Bfy8fj58',
-		'twitter_consumer_key'      => 'UwHYnMWeO0hQdzBLRn85xA',
-		'twitter_consumer_secret'   => '1xfXGHaVzOYsaSdERb6qNLpE0l9YAbVfesRcpb8Y8',
+		'tweet_access_token'        => '',
+		'tweet_access_token_secret' => '',
+		'twitter_consumer_key'      => '',
+		'twitter_consumer_secret'   => '',
 	),
 
 	'production' => array(
